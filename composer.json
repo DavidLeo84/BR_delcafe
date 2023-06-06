@@ -1,0 +1,28 @@
+{
+    "name": "leo/bienesraices",
+    "description": "proyecto software 3",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Leo\\Bienesraices\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Leonardo Romero Marulanda",
+            "email": "dlromerom@uqvirtual.edu.co"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "vlucas/phpdotenv": "^5.5",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controller\\" : "./controller"
+        }
+    }
+}
